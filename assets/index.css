@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(183, 183, 183);
+}
+
+.containers {
+    display: flex;
+}
+
+.sample-texts {
+    font-family: Arial;  
+}
+
+.sample1 {
+    display: inline-block;
+    width: 550px;
+    padding: 5px;
+    margin: 25px;
+    border: solid;
+    background-color: rgb(230, 224, 138);
+    box-shadow: 4px 4px 7px black;
+    border-radius: 13px;
+}
+
+.sample1::before {
+    display: block;
+    content: "";
+    width: 100px;
+    height: 25px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 5px 5px 0 0;
+    margin: -15px;
+    margin-left: calc(50% - 50px);
+    opacity: 90%;
+}
+
+.sample2::before {
+    display: block;
+    content: "";
+    width: 100px;
+    height: 25px;
+    background-color: black;
+    border-radius: 5px 5px 0 0;
+    margin: -15px;
+    margin-left: calc(50% - 50px);
+    opacity: 90%;
+}
+
+.sample3::before {
+    display: block;
+    content: "";
+    width: 100px;
+    height: 25px;
+    background-color: black;
+    border-radius: 5px 5px 0 0;
+    margin: -15px;
+    margin-left: calc(50% - 50px);
+    opacity: 90%;
+}
+
+.sample2 {
+    display: inline-block;
+    width: 550px;
+    padding: 5px;
+    margin: 25px;
+    border: solid;
+    background-color: rgb(230, 224, 138);
+    box-shadow: 4px 4px 7px black;
+    border-radius: 13px;
+}
+
+.sample3 {
+    display: inline-block;
+    width: 550px;
+    padding: 5px;
+    margin: 25px;
+    border: solid;
+    background-color: rgb(230, 224, 138);
+    box-shadow: 4px 4px 7px black;
+    border-radius: 13px;
+}
+
+.sample-p {
+    margin: 25px;
+}
+
+.sample-texts {
+    text-align: center;
+    text-shadow: white 0px -2px, darkgray 0px 3px;
+}
